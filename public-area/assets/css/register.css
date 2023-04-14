@@ -1,0 +1,177 @@
+#content {
+    background: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 135vh;
+    box-shadow: rgb(196, 194, 194);
+}
+
+.container-card {
+    background: rgb(39, 39, 39);
+    border-radius: 12px 12px 12px 12px; ;
+    max-width: 100vh;
+    width: 100%;
+    min-height: 500px;
+    box-shadow: 0px 2px 23px #00000030;   
+    padding: 40px 60px;
+    margin-top: 40px;
+}
+
+.container-card h1 {
+    color: rgb(236, 236, 236);
+    background-clip: text;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form span {
+    margin-left: 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(230, 230, 230);
+    background-clip: text;
+    
+}
+
+form label {
+    color: #6C63FF;
+}
+
+.row{
+    border-bottom: 1.5px solid #919191;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+    margin: 8px 0;
+}
+
+.register-form {
+    margin: 5px;
+}
+
+#name-label{
+    display: inline-block;
+}
+
+
+.container-label {
+    align-items: center;
+    margin: 7px 0;
+}
+
+.container-label input[type="text"], .container-label input[type="password"], .container-label input[type="email"]{
+    padding: 8px 5px;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 0.5px #c1c1c1 ;
+    font-size: 0.8rem;
+    background-color: #ebf8ff;
+}
+
+.container-label label {
+    padding-left: 3px;
+}
+
+.sub-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.sub-title #fn, .sub-title #ln {
+    box-sizing: border-box;
+    width: 49%;
+}
+
+#fn {
+    margin-right: 10px; 
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.container-label #phone2 {
+    font-size: 0.8rem;
+    margin: 0 0 0 2px; 
+    color: #888888;
+    font-weight: 100;
+}
+
+#fn input[name="cep"]{
+    width: 20vh;
+}
+
+
+
+#register, #back{
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#register input {
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid rgb(161, 157, 157);
+    border-radius: 6px;
+    margin: 15px 35px;
+    background: linear-gradient(to left, #6C63FF, #6C63FF98);
+    color: #fff;
+    transition: all 0.3s ease
+}
+
+#register input:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right,  #6C63FF98, #6C63FF);
+    justify-content: center;
+    align-items: center;
+}
+
+#back button {
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid rgb(161, 157, 157);
+    border-radius: 6px;
+    margin: 15px 35px;
+    background: linear-gradient(to right,  #6C63FF98, #6C63FF);
+    color: #fff;
+    transition: all 0.3s ease
+}
+
+#back button:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right,  #6C63FF98, #6C63FF);
+    justify-content: center;
+    align-items: center;
+}
+
+#register input a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#register input{
+    padding: 10px 35px;
+}
+
+#back button {
+    padding: 10px 60px;
+}
+
+#container-button {
+    display: flex;
+    justify-content: center;
+}
